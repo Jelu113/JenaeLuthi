@@ -1,7 +1,9 @@
 export default function About() {
   return (
     <div>
-      <h1> About me </h1>
+      <h1> About me</h1>
+
+      
       <h2>Schooling</h2>
       <p>
         I have almost completed my EdEx bootcamp throught he University of Utah
