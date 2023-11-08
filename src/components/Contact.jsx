@@ -1,5 +1,7 @@
 export default function Contact() {
     return (
-        <div>Contact</div>
+       <><br /><br />
+        <h1> You can contact me at luthijenae@gmail.com</h1>
+        </>
     )
 }
