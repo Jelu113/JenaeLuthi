@@ -1,7 +1,9 @@
-// import {projectList()}
+// import {ListPage} from './ListPage'
 
 export default function Portfolio() {
   return (
+  // <ListPage.props/>
+
     <>
       <h1>Projects</h1>
       <br />
