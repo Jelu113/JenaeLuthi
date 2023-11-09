@@ -5,10 +5,29 @@
   text-align: center;
 }
 
+.photo {
+  /* display:flex; */
+  width: 650px;
+  /* flex-direction: column; */
+}
 
+ .profilePic{
+  width: 250px
+}
 
+/* .picHeadline{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+}
 
+.organize{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-
-
-
+.direction {
+  display:flex;
+  flex-direction: column;
+} */

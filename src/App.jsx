@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-
 import './App.css';
 import Header from './components/Header'; // Import your Header component
 import Footer from './components/Footer';
-import Portfolio from './components/Project'
-import About from './components/About'
-import Contact from './components/Contact'
+import Portfolio from './components/pages/Project';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume'
 function App() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
@@ -18,6 +18,9 @@ function App() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     
   };

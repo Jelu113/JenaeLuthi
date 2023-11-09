@@ -5,6 +5,16 @@ function NavTabs({ currentPage, setCurrentPage }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
+          href="#about"
+          onClick={() => setCurrentPage("About")}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
+          About me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
           href="#portfolio"
           onClick={() => setCurrentPage("Portfolio")}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -14,16 +24,6 @@ function NavTabs({ currentPage, setCurrentPage }) {
           }
         >
           Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => setCurrentPage("About")}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About me
         </a>
       </li>
       <li className="nav-item">
@@ -38,8 +38,13 @@ function NavTabs({ currentPage, setCurrentPage }) {
       </li>
       <li className="nav-item">
         <a
-          href="/resume.pdf" //put in public directory
-          className={"nav-link"}
+          href="#resume"
+          onClick={() => setCurrentPage("Resume")}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+
+          // href="/resume.pdf" //put in public directory
+          // className={"nav-link"}
         >
           Resume
         </a>
