@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <><br />
+    <div>
+    <br />
       <img src="src/assets/profile-pic.jpg" className="profilePic"></img>
       <h2>Full Stack Education</h2><br />
       <p>
@@ -21,6 +22,6 @@ export default function About() {
       ideas that have been implemented in my current job. I have created appScript spreadsheets<br />
 
       </p>
-    </>
+    </div>
   );
 }

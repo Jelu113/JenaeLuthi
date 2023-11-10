@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,5 +17,8 @@ h1 {
   line-height: 1.1;
 }
 
-
+section {
+  padding: 10px, 10px, 10px, 50px; 
+  margin-top: 50px;
+}
 

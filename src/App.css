@@ -1,33 +1,37 @@
  #root {
-  max-width: 1280px;
+  
+  max-width: 1280px; 
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+ 
 }
 
 .photo {
-  /* display:flex; */
-  width: 650px;
-  /* flex-direction: column; */
+  width: 600px;
+  
 }
 
  .profilePic{
   width: 250px
 }
 
-/* .picHeadline{
+body{
   display:flex;
-  flex-direction: column;
-  text-align: left;
 }
 
-.organize{
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+ main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px, solid, black;
 }
-
-.direction {
-  display:flex;
-  flex-direction: column;
-} */
+h2{
+  padding: 10px, 10px, 10px, 50px; 
+  margin-top: 50px;
+}
+.resume{
+margin-top: 50px;
+}

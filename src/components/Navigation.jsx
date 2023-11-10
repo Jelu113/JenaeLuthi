@@ -46,7 +46,7 @@ function NavTabs({ currentPage, setCurrentPage }) {
           // href="/resume.pdf" //put in public directory
           // className={"nav-link"}
         >
-          Resume
+          Résumé
         </a>
       </li>
     </ul>

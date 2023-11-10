@@ -7,15 +7,16 @@ export default function Portfolio() {
       title: "Real Estate Keywords",
       image: "../src/assets/Project2.jpg",
       link: "https://re-law-lookup-production-6926.up.railway.app/",
-      github: "Keyword Project using MySQL, Node.js, Handelbars ",
+      description: "Keyword Project using MySQL, Node.js, Handelbars ",
+      github: "https://github.com/Jelu113/RE-law-lookup"
     },
     {
       id: 2,
       title: "Random Movie Generator",
       image: "../src/assets/movie-night-page.png",
       link: "https://mrpolkadot.github.io/movie-night/",
-      github:
-        "Random movie generator using HTML, CSS, JavaScript, API's",
+      description: "Random movie generator using HTML, CSS, JavaScript, API's",
+      github: "https://github.com/MrPolkadot/movie-night"
     },
 
     {
@@ -23,28 +24,32 @@ export default function Portfolio() {
       title: "Study List",
       image: "../src/assets/Prework-study-guide.jpg",
       link: "https://jelu113.github.io/prework-studyguide/",
-      github: "My first deployed work, using CSS and HTML",
+      description: "My first deployed work, using CSS and HTML",
+      github: "https://github.com/Jelu113/prework-studyguide"
     },
     {
       id: 4,
       title: "Password Generator",
       image: "../src/assets/Grabanumber.png",
       link: "https://jelu113.github.io/Grab-a-number/",
-      github: "This app will return a random password",
+      description: "This app will return a random password",
+      github: "https://github.com/Jelu113/Grab-a-number"
     },
     {
       id: 5,
       title: "Go Maybe No",
       image: "../src/assets/Go.maybe.no2.jpg",
       link: "https://github.com/Jelu113/go.maybe.no",
-      github: "Using a weather API, CSS and HTML",
+      description: "Using a weather API, CSS and HTML",
+      github: "https://github.com/Jelu113/go.maybe.no"
     },
     {
       id: 6,
       title: "Time 4 it",
       image: "../src/assets/time4it.jpg",
       link: "https://jelu113.github.io/time4it/",
-      github: "",
+      description: "Daily schedule using CSS, JavaScript and HTML",
+      github: "https://github.com/Jelu113/time4it"
     },
   ];
   return (
@@ -58,7 +63,8 @@ export default function Portfolio() {
             headline={project.title}
             href={project.link}
             img={project.image}
-            github ={project.github}
+            description={project.description}
+            github={project.github}
           />
         ))}
       </ul>
