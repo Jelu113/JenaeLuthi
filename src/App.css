@@ -1,37 +1,83 @@
- #root {
-  
-  max-width: 1280px; 
+#root {
+  display: flex;
+  max-width: 3000px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
- 
 }
 
-.photo {
-  width: 600px;
-  
+.profilePic {
+  width: 250px;
+  background-color: rgb(136, 184, 168);
+  border-radius: 15px;
+  padding: 15px;
 }
 
- .profilePic{
-  width: 250px
+body {
+  display: flex;
 }
 
-body{
-  display:flex;
-}
-
- main {
+main {
   display: flex;
   flex-direction: row;
   align-items: center;
   border: 2px, solid, black;
 }
-h2{
-  padding: 10px, 10px, 10px, 50px; 
-  margin-top: 50px;
+h2 {
+  padding-top: 20px;
 }
-.resume{
-margin-top: 50px;
+.resume {
+  margin-top: 50px;
+
+}
+.topMargin {
+  padding: 25px;
+  flex-direction: column;
+}
+.photo {
+  margin: 10px;
+  width: 300px;
+  padding: 15px;
+  margin: 20px;
+  background-color: rgb(136, 184, 168);
+  border-radius: 15px;
+}
+.projectContainer {
+  display: flex;
+}
+
+.picHeadline {
+  font-size: 25px;
+}
+
+.navtabs {
+  background-color: rgb(136, 184, 168);
+}
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .projectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.projectCard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  align-self: center;
 }

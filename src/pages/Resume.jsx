@@ -1,27 +1,24 @@
 export default function Resume() {
   return (
     <div className="resume">
-      <div>
-   
      
-       
-      </div>
       <div>
-        <p>Front-End Profeciencies</p>
+        <h2>Front-End </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>React</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>Handlebars</li>
         </ul>
-        <p>Back-End Profeciencies</p>
+        <h2>Back-End </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>mySQL</li>
+          <li>Mongo</li>
+          <li>Node.js</li>
+          <li>Insomnia</li>
+          <li>Mongoose</li>
+          GraphQL
         </ul>
       </div>
       <p>
