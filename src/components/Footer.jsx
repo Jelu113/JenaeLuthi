@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <footer className = {'fixed-bottom'}>
+    <footer className={"fixed-bottom"}>
       <p>&copy; {new Date().getFullYear()} Jenae Luthi</p>
     </footer>
   );
