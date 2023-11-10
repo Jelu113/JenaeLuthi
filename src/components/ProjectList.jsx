@@ -3,7 +3,8 @@ export default function ProjectList() {
     {
       id: 1,
       title: "Real Estate Keywords",
-      image: "https://re-law-lookup-production-6926.up.railway.app/",
+      image: "",
+      link:"https://re-law-lookup-production-6926.up.railway.app/",
       projectDescription: "Keyword Project using MySQL, Node.js, Handelbars ",
     },
     {

@@ -1,31 +1,59 @@
-// import {ListPage} from './ListPage'
-
+import ProjectCard from '../components/ProjectCard'
+import ProjectList from '../components/ProjectList'
 export default function Portfolio() {
+const projectsArray =[
+  {
+    id: 1,
+    title: "Real Estate Keywords",
+    image: "",
+    link:"https://re-law-lookup-production-6926.up.railway.app/",
+    projectDescription: "Keyword Project using MySQL, Node.js, Handelbars ",
+  },
+  {
+    id: 2,
+    title: "Random Movie Generator",
+    image: "https://re-law-lookup-production-6926.up.railway.app/",
+    projectDescription: "Random movie generator using HTML, CSS, JavaScript, API's",
+  },
+
+  {
+    id: 3,
+    title: "Study List",
+    image: "https://jelu113.github.io/prework-studyguide/",
+    projectDescription: "My first deployed work, using CSS and HTML",
+  },
+  {
+    id: 4,
+    title: "Real Estate Keywords",
+    image: "https://re-law-lookup-production-6926.up.railway.app/",
+    projectDescription: " ",
+  },
+  {
+    id: 5,
+    title: "Real Estate Keywords",
+    image: "https://re-law-lookup-production-6926.up.railway.app/",
+    projectDescription: " ",
+  },
+  {
+    id: 6,
+    title: "Real Estate Keywords",
+    image: "https://re-law-lookup-production-6926.up.railway.app/",
+    projectDescription: " ",
+  },
+];
   return (
-  // <ListPage.props/>
+  
 
     <>
       <h1>Projects</h1>
       <br />
       <ul className="organize">
-        <div className="direction">
-          <p className="picHeadline">
-            Keyword Project using MySQL, Node.js, Handelbars
-          </p>
+      
+       {projectsArray.map((project) => {
+          <ProjectCard headline = {project.title} href = {""} img = {""}/>
 
-          <a
-            href="https:re-law-lookup-production-6926.up.railway.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="src/assets/Project2.jpg"
-              alt="Keyword"
-              className="photo"
-            ></img>
-          </a>
-        </div>
-
+       }
+       )}
         {/* <div className="direction">
           <br />
           <p className="picHeadline">
