@@ -2,12 +2,13 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* 
-main { 
-  height:750px;
-margin-bottom: 20px;
-} */
-
+header{
+  background: rgb(136,184,168);
+background: linear-gradient(180deg, rgba(136,184,168,1) 0%, rgba(136,184,168,0) 91%);
+}
+.title { 
+  padding-top: 40px;
+}
 .profilePic {
   width: 250px;
   background-color: rgb(136, 184, 168);
