@@ -6,7 +6,7 @@ export default function Portfolio() {
     {
       id: 1,
       title: "Real Estate Keywords",
-      image: "../public/assets/Project2.jpg",
+      image: "/assets/Project2.jpg",
       link: "https://re-law-lookup-production-6926.up.railway.app/",
       description: "Keyword Project using MySQL, Node.js, Handelbars ",
       github: "https://github.com/Jelu113/RE-law-lookup",
@@ -14,7 +14,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Random Movie Generator",
-      image: "../public/assets/movie-night-page.png",
+      image: "/assets/movie-night-page.png",
       link: "https://mrpolkadot.github.io/movie-night/",
       description: "Random movie generator using HTML, CSS, JavaScript, API's",
       github: "https://github.com/MrPolkadot/movie-night",
@@ -23,7 +23,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: "Study List",
-      image: "../public/assets/Prework-study-guide.jpg",
+      image: "/assets/Prework-study-guide.jpg",
       link: "https://jelu113.github.io/prework-studyguide/",
       description: "My first deployed work, using CSS and HTML",
       github: "https://github.com/Jelu113/prework-studyguide",
@@ -31,7 +31,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "Password Generator",
-      image: "../public/assets/Grabanumber.png",
+      image: "/assets/Grabanumber.png",
       link: "https://jelu113.github.io/Grab-a-number/",
       description: "This app will return a random password",
       github: "https://github.com/Jelu113/Grab-a-number",
@@ -39,7 +39,7 @@ export default function Portfolio() {
     {
       id: 5,
       title: "Go Maybe No",
-      image: "../public/assets/Go.maybe.no2.jpg",
+      image: "/assets/Go.maybe.no2.jpg",
       link: "https://github.com/Jelu113/go.maybe.no",
       description: "Using a weather API, CSS and HTML",
       github: "https://github.com/Jelu113/go.maybe.no",
@@ -47,7 +47,7 @@ export default function Portfolio() {
     {
       id: 6,
       title: "Time 4 it",
-      image: "../public/assets/time4it.jpg",
+      image: "/assets/time4it.jpg",
       link: "https://jelu113.github.io/time4it/",
       description: "Daily schedule using CSS, JavaScript and HTML",
       github: "https://github.com/Jelu113/time4it",
