@@ -23,7 +23,7 @@ export default function Resume() {
       </div>
       <p>
           {" "}
-          Download my Résumé <a href="../public/resume.pdf">here</a>
+          Download my Résumé <a href="../resume.pdf">here</a>
         </p>
     </div>
   );
