@@ -10,16 +10,16 @@ export default function ProjectCard({
       <div className="projectCard">
         <div className="projectContent">
           <p className="picHeadline">{headline}</p>
-          <p className="picDescription">{description}</p>
+         <p className="picDescription">{description}</p>
           <img src={img} alt={headline} className="photo"></img>
-        </div>
-        <div>
+        <div className="linksContainer">
           <a href={github} target="_blank" rel="noreferrer">
             <i className="fa-brands fa-github fa-xl"></i>
-          </a>&nbsp;&nbsp;
+          </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href={href} target="_blank" rel="noreferrer">
             <i className="fa-solid fa-link fa-xl"></i>
           </a>
+          </div>
         </div>
         
       </div>

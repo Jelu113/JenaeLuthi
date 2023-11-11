@@ -2,7 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className={"fixed-bottom"}>
+    <div className="footerContainer">
+    <footer className={"footer"}>
        <div className = "icons">
       <a href="https://github.com/Jelu113" target="_blank" rel="noreferrer">
         <i className="fa-brands fa-github fa-2xl"></i>
@@ -20,6 +21,7 @@ function Footer() {
       </div>
       <p>&copy; {new Date().getFullYear()} Jenae Luthi</p>
     </footer>
+    </div>
   );
 }
 

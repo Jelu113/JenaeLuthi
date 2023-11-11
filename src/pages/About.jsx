@@ -3,24 +3,27 @@ export default function About() {
     <div className ="topMargin">
     <br />
       <img src="/assets/profile-pic.jpg" className="profilePic"></img>
-      <h2>Full Stack Education</h2>
-      <br /><p>
-        I have almost completed my EdEx bootcamp through the University of Utah and I could not <br />
-        be more proud of the progress I have made. My day job is with the State of Utah as a <br /> 
-        Real Estate Investigator and while I do enjoy my job, I also wanted to learn a new skill.<br />
+      <h2>Professional Development in Full Stack Technologies</h2>
+      <p>
+      I am on the verge of completing the EdEx bootcamp offered by the University of Utah, and I take<br />
+      great pride in the substantial progress I have achieved. Currently employed as a Real Estate<br /> 
+      Investigator with the State of Utah, I have found fulfillment in my professional role but also sought<br /> 
+      to acquire a new skill set.
       </p>
       <p>
-        Learning React, Mongo, MySQL, JavaScript, Node.js, Express MERN and other programming <br />
-        languages has been so rewarding. I have been frustrated many times, but am proud of the <br /> 
-        work I have done and the effort put into learning it all. I know I have a long way to go until<br />
-        I am where I want to be, and I am looking forward to the process!
+      My educational journey has encompassed a comprehensive exploration of technologies such as<br /> 
+      React, Mongo, MySQL, JavaScript, Node.js, and Express MERN, among other programming languages.<br /> 
+      Despite encountering moments of frustration, I am pleased with the substantial work I have accomplished<br /> 
+      and the commitment I have devoted to the learning process. Recognizing that I have a substantial path <br /> 
+      ahead to reach my desired proficiency, I eagerly anticipate the continued evolution of my skills.
       </p>
-      <h2>My Work History</h2>
-      <p> As mentioned above, I work for the Utah Division of Real Estate as a Real Estate Investigator.<br /> 
-      In some ways it is a lot like fullstack programming. It takes the same dedication to find answers<br />
-      and solve problems in finding information. It definetly has it's differences as well. I have many<br /> 
-      ideas that have been implemented in my current job. I have created appScript spreadsheets<br />
-
+      <h2>Professional Background</h2>
+      <p>In addition to my ongoing education, I contribute to the Utah Division of Real Estate as a <br />
+      Real Estate Investigator. Drawing parallels between my role and full-stack programming, I recognize the <br />
+      shared commitment required to unearth solutions and address challenges in the pursuit of information. <br />
+      While distinctions exist, my current position has provided a fertile ground for the implementation of <br />
+      numerous ideas. I have successfully developed appScript spreadsheets as part of my contributions to <br />
+      optimizing processes within my present role.
       </p>
     </div>
   );
