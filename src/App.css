@@ -1,10 +1,12 @@
 #root {
-  display: flex;
-  max-width: 3000px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main {
+  align-items: center ;
+  /* border: 1px solid red; */
 }
 
 .profilePic {
@@ -14,16 +16,6 @@
   padding: 15px;
 }
 
-body {
-  display: flex;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: 2px, solid, black;
-}
 h2 {
   padding-top: 20px;
 }
@@ -35,9 +27,11 @@ h2 {
   padding: 25px;
   flex-direction: column;
 }
+
 .photo {
   margin: 10px;
   width: 300px;
+  height: 200px;
   padding: 15px;
   margin: 20px;
   background-color: rgb(136, 184, 168);
@@ -45,21 +39,43 @@ h2 {
 }
 .projectContainer {
   display: flex;
+  border: 1px solid yellow;
 }
 
 .picHeadline {
   font-size: 25px;
 }
-
-.navtabs {
-  background-color: rgb(136, 184, 168);
+i{
+  color:rgb(136, 184, 168);
 }
+
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
 
+ul{
+  list-style-type: none;
+  align-self: center;
+}
+
+.nav-link{
+  color:rgb(2, 22, 22) !important;
+}
+
+.active {
+  color:rgb(136, 184, 168) !important;
+}
+
+.contact {
+border: 1px solid rgb(68, 0, 255);
+width: 750px;
+}
+
+.centerApp{
+  align-items: center;
+}
 @media (min-width: 768px) {
   .projectsGrid {
     grid-template-columns: repeat(2, 1fr);
@@ -70,14 +86,4 @@ h2 {
   .projectsGrid {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.projectCard {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 0;
-}
-ul{
-  list-style-type: none;
-  align-self: center;
 }

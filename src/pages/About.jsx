@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className ="topMargin">
     <br />
-      <img src="src/assets/profile-pic.jpg" className="profilePic"></img>
+      <img src="/assets/profile-pic.jpg" className="profilePic"></img>
       <h2>Full Stack Education</h2>
       <br /><p>
         I have almost completed my EdEx bootcamp through the University of Utah and I could not <br />

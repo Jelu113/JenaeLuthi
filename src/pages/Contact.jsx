@@ -1,21 +1,14 @@
 export default function Contact() {
   return (
-    <>
-     
-
-      
-      
-        <section className="mb-4">
-        <h2> 
-            Contact me
-          </h2>
+   <>
+        <section className="mb-4 contact">
+        <h2>Contact me</h2>
 
           <p> 
             Do you have any questions? Please do not hesitate to contact me
             directly.{" "}
           </p>
-          {/* <div className="row"> */}
-            {/* <div className="col-md-9 mb-md-0 mb-5"> */}
+          
               <form
                 id="contact-form"
                 name="contact-form"
@@ -31,7 +24,7 @@ export default function Contact() {
                         name="name"
                         className="form-control"
                       ></input>
-                      <label for="name" className="">
+                      <label htmlFor="name" className="">
                         Your name
                       </label>
                     </div>
@@ -45,7 +38,7 @@ export default function Contact() {
                         name="email"
                         className="form-control"
                       ></input>
-                      <label for="email" className="">
+                      <label htmlFor="email" className="">
                         Your email
                       </label>
                     </div>
@@ -61,7 +54,7 @@ export default function Contact() {
                         name="subject"
                         className="form-control"
                       ></input>
-                      <label for="subject" className="">
+                      <label htmlFor="subject" className="">
                         Subject
                       </label>
                     </div>
@@ -78,7 +71,7 @@ export default function Contact() {
                         rows="2"
                         className="form-control md-textarea"
                       ></textarea>
-                      <label for="message">Your message</label>
+                      <label htmlFor="message">Your message</label>
                     </div>
                   </div>
                 </div>
@@ -93,10 +86,9 @@ export default function Contact() {
                 </a>
               </div>
               <div className="status"></div>
-            {/* </div> */}
-          {/* </div> */}
-        </section>
        
+        </section>
+        
       
   
     </>
